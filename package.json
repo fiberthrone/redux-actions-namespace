@@ -1,0 +1,40 @@
+{
+  "name": "redux-actions-namespace",
+  "version": "1.0.0",
+  "description": "Syntax sugar for using namespaces with redux-actions.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && babel src --out-dir lib",
+    "clean": "rimraf lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiberthrone/redux-actions-namespace.git"
+  },
+  "keywords": [
+    "redux",
+    "actions",
+    "redux-actions",
+    "namespace"
+  ],
+  "author": "Andrei Dotsenko <fiberthrone@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiberthrone/redux-actions-namespace/issues"
+  },
+  "homepage": "https://github.com/fiberthrone/redux-actions-namespace#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.3.0",
+    "rimraf": "^2.6.1"
+  },
+  "peerDependencies": {
+    "redux-actions": "^2.0.3"
+  }
+}
