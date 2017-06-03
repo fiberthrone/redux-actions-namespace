@@ -1,6 +1,6 @@
 {
   "name": "redux-actions-namespace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Syntax sugar for using namespaces with redux-actions.",
   "main": "lib/index.js",
   "scripts": {
@@ -9,6 +9,9 @@
     "clean": "rimraf lib",
     "prepublish": "npm run build"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fiberthrone/redux-actions-namespace.git"
